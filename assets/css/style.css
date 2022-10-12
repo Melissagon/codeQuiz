@@ -11,8 +11,9 @@ h1, h2 {
     text-align: center;
 }
 
-.body {
-    
+li {
+    list-style: none;
+
 }
 
 
@@ -40,8 +41,9 @@ h1, h2 {
     justify-content: center;
 }
 
-.intro p {
+.intro {
     text-align: center;
+    display: block;
 }
 
 .intro button {
@@ -49,3 +51,20 @@ h1, h2 {
     margin: 0 auto;
 }
 
+.main {
+    display: none;
+
+}
+
+.questions {
+    display: none;
+}
+
+.quiz-finish {
+    display: none;
+
+}
+
+.scoreboard {
+    display: none;
+}

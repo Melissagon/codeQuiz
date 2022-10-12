@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Quiz</title>
-    <link rel="stylesheet" href="C:\Users\Melissa\desktop\bootcamp\codeQuiz\codeQuiz\assets\css\style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <div class="outer-container">
@@ -15,10 +17,35 @@
           <header class="intro">
             <h1>Java Script Quiz</h1>
             <p>Click START to begin. Additional time will be removed if you get a wrong answer.</p>
-            <button>START QUIZ</button>
+            <button>START</button>
           </header>
           <main class="quiz">
-            <p></p>
+            <section class="questions">
+                <h2>Question here</h2>
+                <ul>
+                  <li><button>Answer1</button></li>
+                  <li><button>Answer2</button></li>
+                  <li><button>Answer3</button></li>
+                  <li><button>Answer4</button></li>
+                </ul>
+            </section>
+            <section class="quiz-finish">
+                <h2>Quiz Finished!</h2>
+                <p>Your Score: 00</p>
+                  <div>
+                    <label for="">Enter initials:</label>
+                    <input type="text">
+                    <button>Submit</button>
+                  </div>
+            </section>
+            <section class="scoreboard">
+              <h2>Highscores:</h2>
+              <ol>
+                  <li>MG - 20</li>
+              </ol>
+              <button>Go Back</button>
+              <button>Clear Highscores</button>
+            </section>
           </main>
       </div>
     </div>
