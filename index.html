@@ -11,19 +11,19 @@
     <div class="outer-container">
       <div class="timer-bar">
           <button>View High Scores</button>
-          <p>Timer: 00:00</p>
+          <p class="timer">45</p>
       </div>  
       <div class="main-container">
           <header class="intro">
             <h1>Java Script Quiz</h1>
             <p>Click START to begin. Additional time will be removed if you get a wrong answer.</p>
-            <button>START</button>
+            <button class="start-button">START</button>
           </header>
           <main class="quiz">
             <section class="questions">
-                <h2>Question here</h2>
+                <h2 id="question-text">Question here</h2>
                 <ul>
-                  <li><button>Answer1</button></li>
+                  <li><button id="one">Answer1</button></li>
                   <li><button>Answer2</button></li>
                   <li><button>Answer3</button></li>
                   <li><button>Answer4</button></li>
@@ -49,5 +49,6 @@
           </main>
       </div>
     </div>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
